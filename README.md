@@ -13,7 +13,6 @@
 | **Резюме** | [lutsenkoav.github.io](https://lutsenkoav.github.io) |
 | **Telegram** | [@lutsenkoav](https://t.me/lutsenkoav) |
 | **Email** | [aleksey-lutsenko@ya.ru](mailto:aleksey-lutsenko@ya.ru) |
-| **GitHub** | [github.com/lutsenkoav](https://github.com/lutsenkoav) |
 
 ---
 
@@ -27,7 +26,7 @@
 | **Сценарии** | Описание бизнес-процессов и пользовательских потоков | ✅ Готово | 4 сценария |
 | **Тест-кейсы** | Детализированные шаги с предусловиями и ожидаемыми результатами | ✅ Готово | 4 файла / 59 кейсов |
 | **Подготовка среды** | Инструкция по развёртыванию изолированного стенда | ✅ Готово | 1 документ |
-| **Баг-репорты** | Примеры оформления дефектов с шагами и логами | ✅ Готово | 1 пример |
+| **Баг-репорты** | Примеры оформления дефектов разных типов | ✅ Готово | 4 примера |
 
 ---
 
@@ -90,11 +89,14 @@
 
 ## 5. 🐛 Баг-репорты
 
-Примеры оформления дефектов с шагами воспроизведения, ожидаемым и фактическим результатом, логами.
+Примеры оформления дефектов разных типов: от UI/UX до производительности. Каждый баг-репорт содержит шаги воспроизведения, ожидаемый/фактический результат, логи и вложения.
 
-| Файл | Описание | Приоритет | Статус |
-|------|----------|-----------|--------|
-| [bug-report-view-display-delete.md](./bug-reports/bug-report-view-display-delete.md) | Не удаляется выбранный элемент из списка в ViewDisplay | High | Новый |
+| Файл | Тип | Компонент | Приоритет | Серьёзность |
+|------|-----|-----------|-----------|-------------|
+| [bug-report-view-display-delete.md](./bug-reports/bug-report-view-display-delete.md) | Функциональный | ViewDisplay | High | Critical |
+| [bug-report-view-picker-ui-ux.md](./bug-reports/bug-report-view-picker-ui-ux.md) | UI/UX | ViewPicker | Medium | Minor |
+| [bug-report-treeview-performance.md](./bug-reports/bug-report-treeview-performance.md) | Производительность | TreeView | High | Major |
+| [bug-report-view-display-multiple-attachments.md](./bug-reports/bug-report-view-display-multiple-attachments.md) | Сложный (с вложениями) | ViewDisplay, ViewPicker | High | Critical |
 
 ---
 
@@ -106,8 +108,8 @@
 | Сценарии | 4 сценария |
 | Тест-кейсы | 4 файла (59 кейсов) |
 | Подготовка среды | 1 документ |
-| Баг-репорты | 1 пример |
-| **Итого** | **11 артефактов** |
+| Баг-репорты | 4 примера |
+| **Итого** | **14 артефактов** |
 
 ---
 
@@ -115,11 +117,13 @@
 
 - **Типы тестирования:** Functional, Regression, Integration, API, UI/UX, Compatibility (Web/Mobile)
 
-- **Инструменты API и отладка:** Postman (базово), Chrome DevTools (Network, Console, Elements)
+- **Инструменты API и отладка:** Postman (базово), Chrome DevTools
 
 - **Управление стендами:** Настройка изолированных инстансов (multi-tenant), переключение конфигураций между версиями сервисов
 
-- **Сборка и CI/CD:** Локальная сборка Android/iOS/Cordova/Web (CLI), Jenkins (пайплайны, деплой модулей и инстансов), VCS: GitHub, SourceTree, IDE: IntelliJ IDEA, VS Code
+- **Сборка и CI/CD:** Локальная сборка Android/iOS/Cordova/Web (CLI), Jenkins (пайплайны, деплой модулей и инстансов),
+
+- **Контроль версий и IDE: GitHub, SourceTree, IntelliJ IDEA, VS Code
 
 - **Мониторинг ошибок и логов:** Sentry, Flipper, Glitchtip
 

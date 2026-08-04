@@ -67,5 +67,5 @@
 Собрать `Launcher` и `Bundle URL` мобильного приложения из ветки: `fix/modals`
 
 ```bash
-# команда для сборки
+# команда для сборки мобильного приложения
 npm run build:android --branch=fix/modals

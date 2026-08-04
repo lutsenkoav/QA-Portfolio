@@ -13,7 +13,6 @@
 | **Резюме** | [lutsenkoav.github.io](https://lutsenkoav.github.io) |
 | **Telegram** | [@lutsenkoav](https://t.me/lutsenkoav) |
 | **Email** | [aleksey-lutsenko@ya.ru](mailto:aleksey-lutsenko@ya.ru) |
-| **GitHub** | [github.com/lutsenkoav](https://github.com/lutsenkoav) |
 
 ---
 

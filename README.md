@@ -83,12 +83,19 @@
 
 Инструменты и подходы, которые я использую в работе:
 
-- **Тестирование:** Functional, Regression, Integration, API, UI/UX
-- **Инструменты API:** Postman, Chrome DevTools
-- **Трекинг:** Jira, YouTrack, Redmine, Confluence, Coda, TestRail
-- **CI/CD:** Jenkins, GitHub Actions
-- **Мониторинг:** Sentry, Flipper, Glitchtip
-- **Сборка:** Android/iOS/Cordova/Web (CLI)
+- **Типы тестирования:** Functional, Regression, Integration, API, UI/UX, Compatibility (Web/Mobile)
+
+- **Инструменты API и отладка:** Postman (базово), Chrome DevTools
+
+- **Управление стендами:** Изолированные инстансы (multi-tenant), переключение конфигураций
+
+- **Сборка и CI/CD:** Локальная сборка Android/iOS/Cordova/Web (CLI), Jenkins (пайплайны, деплой модулей и инстансов)
+
+- **Контроль версий и IDE:** GitHub, SourceTree, IntelliJ IDEA, VS Code
+
+- **Мониторинг ошибок и логов:** Sentry, Flipper, Glitchtip
+
+- **Трекинг и документация:** Jira, YouTrack, Redmine, Confluence, Coda, TestRail
 
 ---
 

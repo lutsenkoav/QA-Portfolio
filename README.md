@@ -115,7 +115,7 @@
 
 ## 🔧 Мой стек технологий
 
-- **Типы тестирования:** Functional, Regression, Integration, API, UI/UX, Compatibility (Web/Mobile)
+- **Типы тестирования:** ```Functional, Regression, Integration, API, UI/UX, Compatibility (Web/Mobile)
 
 - **Инструменты API и отладка:** Postman (базово), Chrome DevTools
 
@@ -123,7 +123,7 @@
 
 - **Сборка и CI/CD:** Локальная сборка Android/iOS/Cordova/Web (CLI), Jenkins (пайплайны, деплой модулей и инстансов),
 
-- **Контроль версий и IDE: GitHub, SourceTree, IntelliJ IDEA, VS Code
+- **Контроль версий и IDE**: GitHub, SourceTree, IntelliJ IDEA, VS Code
 
 - **Мониторинг ошибок и логов:** Sentry, Flipper, Glitchtip
 
